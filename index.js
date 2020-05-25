@@ -35,7 +35,7 @@ function exerciseDog(dogName,dogBreed) {
   let i;
   for(i=0; i<routine.length; i++){
   array = [routine[i]];
-  array.push()
+  array.push;
   }
   return array;
 }
