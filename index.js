@@ -34,7 +34,8 @@ let array=[];
 function exerciseDog(dogName,dogBreed) {
   let i;
   for(i=0; i<routine.length; i++){
-  array = routine[i] `${dogName} ${dogBreed}`;
+  array = routine[i] (dogName,dogBreed);
+  array.push();
   }
   return array;
 }
